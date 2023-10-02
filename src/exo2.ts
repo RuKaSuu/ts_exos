@@ -9,6 +9,8 @@ interface Obj {
 }
 
 export function sortByDate(obj: Obj, desc = false): Subject[] {
-    
+    if(desc) {
+        
+    }
     return []
 }
